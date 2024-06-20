@@ -34,7 +34,7 @@
                                 -webkit-box-sizing: border-box;
                                 box-sizing: border-box;
                                 justify-content: center;\">
-                                <div style=\"width: 100%; height: 400px; border-radius: 10px;\">
+                                <div style=\"width: 100%; height: auto; border-radius: 10px;\">
                                     <img style=\"width: 100%;\" src=\"https://kaylawalng.com/assets/images/img2.png\" alt=\"\">
                                 </div>
 
