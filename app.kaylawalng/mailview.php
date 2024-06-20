@@ -53,7 +53,7 @@
         <hr>
 
         <div style="width: 100%; border-radius: 10px; padding-top: 5px; padding-bottom: 1px; margin-top: 5%; background: #ffeded;">
-            <p style="margin: 5%; font-size: 14pt;">To learn more about our products and services, <a href="kaylawalng.com">click here</a> or contact us 
+            <p style="margin: 5%; font-size: 14pt;">To learn more about our products and services, <a href="https://kaylawalng.com">click here</a> or contact us 
                 at <a href="mailto: support@kaylawalng.com">support@kaylawalng.com</a> or send us a WhatsApp message at <a href="http://wa.me/08145033094">+234 814 5033 094</a></p>
         </div><br>
         
