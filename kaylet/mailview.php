@@ -59,9 +59,9 @@
         </div><br>
         
         <div style="display: flex; flex-direction: row;">
-            <a href=""><img style="width: 40px; height: 40px; margin-right: 20px;" src="assets/images/facebook.png"></a>
-            <a href=""><img style="width: 40px; height: 40px; margin-right: 20px;" src="assets/images/instagram.png"></a>
-            <a href=""><img style="width: 40px; height: 40px; margin-right: 20px;" src="assets/images/twitter.png"></a>
+            <a href=""><img style="width: 40px; height: 40px; margin-right: 20px;" src="https://kaylawalng.com/assets/images/facebook.png"></a>
+            <a href=""><img style="width: 40px; height: 40px; margin-right: 20px;" src="https://kaylawalng.com/assets/images/instagram.png"></a>
+            <a href=""><img style="width: 40px; height: 40px; margin-right: 20px;" src="https://kaylawalng.com/assets/images/twitter.png"></a>
         </div><br><br><br><br><br>
     </div>
 </body>
