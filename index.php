@@ -24,7 +24,7 @@
     <section class="welcome-note" id="rates">
         <div class="part-a">
             <p class="big-text">Welcome!</p>
-            <p>Trade your gift cards and cryptocurrencies at reasonable rates. Instant payment, no stress, no stories.</p>
+            <p>Trade your Gift cards and Cryptocurrencies at Reasonable Rates. Instant Payment, No Stress, No Stories.</p>
         </div>
 
         <div class="part-b">
@@ -36,7 +36,7 @@
     </section>
 
     <div class="rateContainer" id="">
-        <h1>Amazing rates today. <span>Just for you!</span></h1>
+        <h1>Amazing Rates today. <span>Just for You!</span></h1>
         <div class="rowdisplay">
             <div class="part-a">
                 <table>
@@ -80,7 +80,7 @@
                 <form action="" method="post">
                     <div class="doubleInput">
                         <div>
-                            <label for="">Select a digital asset</label>
+                            <label for="">Select a Digital Asset</label>
                             <select name="" id="" required>
                                 <option value="" selected>Select</option>
                                 <option value="">Bitcoin</option>
@@ -104,7 +104,7 @@
 
     <div class="how-it-works">
         <p class="tags">How it works</p>
-        <h1>Our system is fast, safe, reliable & easy to use</h1>
+        <h1>Our System is Fast, Safe, Reliable & Easy to Use</h1>
 
         <div class="how-menu">
             <div class="steps">
