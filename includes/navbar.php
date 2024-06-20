@@ -10,8 +10,8 @@
     </div>
 
     <div class="extra-links">
-        <a href="app.kaylawalng" target="_blank"><p>Login</p></a>
-        <a href="app.kaylawalng/register" target="_blank"><p class="like-button">Create account</p></a>
+        <a href="kaylet" target="_blank"><p>Login</p></a>
+        <a href="kaylet/register" target="_blank"><p class="like-button">Create account</p></a>
     </div>
 
     <div class="menu-icons">
