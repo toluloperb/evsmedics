@@ -7,7 +7,7 @@
         box-sizing: border-box;
         /* display: flex; */
         justify-content: center;">
-        <div style="width: 100%; height: 400px; background: url('assets/images/img2.png');background-position: center; background-size: cover;
+        <div style="width: 100%; height: 400px; background: url('https://kaylawalng.com/assets/images/img2.png');background-position: center; background-size: cover;
          background-repeat: no-repeat; border-radius: 10px;"></div>
 
         <div style="width: 100%;">
@@ -30,12 +30,12 @@
         <div style="width: 100%; margin: 5%;">
             <p style="font-size: 25pt;">With KAYLET (Kaylawal Wallet) you can now:</p>
             <div style="width: 70%; display: flex; flex-direction: row; flex-wrap: no-wrap; align-items: center; margin-bottom: 10px;">
-                <img style="width: 40px; height: 40px; margin-right: 20px;" src="assets/images/bitcoinMail.png" alt="">
+                <img style="width: 40px; height: 40px; margin-right: 20px;" src="https://kaylawalng.com/assets/images/bitcoinMail.png" alt="">
                 <p style="font-size: 18pt;">Convert your bitcoin and all other crypto currencies to instant cash.</p>
             </div>
 
             <div style="width: 70%; display: flex; flex-direction: row; flex-wrap: no-wrap; align-items: center; margin-bottom: 10px;">
-                <img style="width: 40px; height: 40px; margin-right: 20px;" src="assets/images/gift-voucher.png">
+                <img style="width: 40px; height: 40px; margin-right: 20px;" src="https://kaylawalng.com/assets/images/gift-voucher.png">
                 <p style="font-size: 18pt;">Convert your gift cards to cash.</p>
             </div>
 
@@ -45,7 +45,7 @@
             </div>
 
             <div style="width: 70%; display: flex; flex-direction: row; flex-wrap: no-wrap; align-items: center; margin-bottom: 10px;">
-                <img style="width: 40px; height: 40px; margin-right: 20px;" src="assets/images/iphone.png">
+                <img style="width: 40px; height: 40px; margin-right: 20px;" src="https://kaylawalng.com/assets/images/iphone.png">
                 <p style="font-size: 18pt;">Top up your airtime and renew your internet subscription.</p>
             </div>
         </div>
