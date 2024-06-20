@@ -30,20 +30,20 @@
             if($_SESSION['auth'])
             {
                 $_SESSION["status"] = "Welcome to your Kaylet(Kaylawal Wallet)";
-                header("Location: ../app.kaylawalng");
+                header("Location: ../kaylet");
                 exit();
             }
         }
         else
         {
             $_SESSION["status"] = "Username or Password Incorrect";
-            header("Location: ../app.kaylawalng/login");
+            header("Location: ../kaylet/login");
             exit();
         }
     }
     else
     {
         $_SESSION["status"] = "Login to continue";
-        header("Location: ../app.kaylawalng/login");
+        header("Location: ../kaylet/login");
         exit();
     }

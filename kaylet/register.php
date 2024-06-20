@@ -142,7 +142,7 @@
                                     .formContainer {
                                         width: 400px;
                                         height: auto;
-                                        background-color: #003399;
+                                        background-color: var(--main-color);
                                         /* margin-left: 25%; */
                                         padding: 3%;
                                         border-radius: 10px;
@@ -157,7 +157,7 @@
                                         border: none;
                                         margin-top: 15px;
                                         border-radius: 5px;
-                                        background: orange;
+                                        background: #fff;
                                     }
                                 </style>
                                 <div class="registerationContainer">
