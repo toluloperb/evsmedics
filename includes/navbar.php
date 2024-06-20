@@ -25,6 +25,6 @@
     <a href="#how-it-works"><p>How it works</p></a>
     <a href="#rates"><p>Rates</p></a>
     <a href="#testimonials"><p>Testimonial</p></a>
-    <a href=""><p>Login</p></a>
-    <a href=""><p class="like-button">Create account</p></a>
+    <a href="kaylet"><p>Login</p></a>
+    <a href="kaylet/register"><p class="like-button">Create account</p></a>
 </div>
