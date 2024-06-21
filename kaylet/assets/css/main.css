@@ -454,6 +454,19 @@ main {
     background-color: #ffebeb;
     width: fit-content;
     border-radius: 8px;
+    margin-right: 15px;
+}
+
+#infos form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#infos form div {
+    margin-right: 10px;
 }
 
 .infotab {
@@ -462,6 +475,7 @@ main {
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
+    width: 100%;
 }
 
 .infotab:last-child {
@@ -469,7 +483,7 @@ main {
 }
 
 .infotab input {
-    width: 270px;
+    width: 100%;
     height: 40px;
     border: 2px solid var(--transparent);
     border-radius: 5px;
@@ -479,6 +493,10 @@ main {
     font-family: var(--font-family);
     color: var(--main-color);
     outline: none;
+}
+
+.infotab label {
+    text-wrap: nowrap;
 }
 
 .infotab p,
@@ -558,9 +576,24 @@ main {
     display: none;
 }
 
+#accounts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
     .illustrationContainer {
         display: none;
+    }
+
+    .infos {
+        margin-right: 0;
+    }
+
+    #infos form {
+        flex-direction: column;
     }
 
     .infotab {
@@ -740,6 +773,10 @@ main {
         display: none;
     }
 
+    .menubtn p, .menubtn i {
+        font-weight: 500;
+    }
+
     .menubtn{
         display: flex;
         filter: blur(0px);
@@ -747,7 +784,7 @@ main {
         justify-content: space-between;
         padding: 5%;
         color: var(--white);
-        border-radius: 25px;
+        border-radius: 10px;
         width: 100%;
         background-color: var(--main-color);
     }

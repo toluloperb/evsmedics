@@ -1,6 +1,6 @@
 <div class="navContainer">
     <div class="menubtn">
-        <p>Kaylet Dashboard</p>
+        <p>KayWallet Dashboard</p>
         <i class="fa fa-bars" id="activeBtn"></i>
     </div>
 </div>

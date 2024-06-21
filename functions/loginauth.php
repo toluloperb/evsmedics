@@ -29,7 +29,7 @@
 
             if($_SESSION['auth'])
             {
-                $_SESSION["status"] = "Welcome to your Kaylet(Kaylawal Wallet)";
+                $_SESSION["status"] = "Welcome to your KayWallet(Kaylawal Wallet)";
                 header("Location: ../kaylet");
                 exit();
             }
