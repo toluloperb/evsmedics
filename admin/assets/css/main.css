@@ -13,15 +13,16 @@ html {
 }
 
 :root {
-    --main-color: #c50102;
-    --lighter: #ffebeb;
+    --main-color2: #c50102;
+    --main-color: #000000;
+    --lighter: #bdbdbd;
     --dark: #666666;
-    --black: #333333;
+    --black: #5d5d5d;
     --body-padding: .8% 10%;
     --white: #fff;
     --bigtext: 40pt;
     --font-family: 'Rubik', 'san-serif';
-    --transparent: #c501011c;
+    --transparent: #0000001c;
 }
 
 body {
@@ -232,6 +233,10 @@ main {
 
 .sidebarlist p:hover {
     color: var(--main-color);
+}
+
+.main-color {
+    background-color: var(--main-color) !important;
 }
 
 .logoutlist {
@@ -601,6 +606,122 @@ main {
     color: #333333;
     outline: none;
     margin-top: 10px;
+}
+
+.no-top {
+    margin-top: 0 !important;
+}
+
+.minitext {
+    font-size: 9pt;
+    margin-right: 10px;
+    text-wrap: nowrap;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px !important;
+}
+
+.column {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3333331c;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.no-padding {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.min-height {
+    height: 40px;
+}
+
+.label {
+    color: var(--dark);
+    font-size: 11pt;
+    text-transform: capitalize;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.input {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #3333333c;
+    padding: 10px;
+    font-size: 11.5pt;
+    color: var(--dark);
+}
+
+.input:focus {
+    outline: 1px solid #c50102;
+    height: fit-content;
+}
+
+.padding-20 {
+    padding: 20px;
+    border: 1px solid #3333331c;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+}
+
+.small {
+    width: 50px;
+    margin-left: 0 !important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    overflow: auto;
+    align-items: center !important;
+}
+
+.row .button {
+    width: 100%;
+    margin-right: 20px;
+    background-color: #3333331c;
+    border: none;
+}
+
+.row .button:last-child {
+    margin-right: 0;
 }
 
 @media only screen and (max-width: 768px) {

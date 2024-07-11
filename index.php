@@ -1,6 +1,8 @@
 <?php
+    session_start();
     include('includes/header.php');
     include('includes/navbar.php');
+    include('config/dbcon.php');
 ?>
 
 <main>
@@ -45,58 +47,65 @@
                         <th>Buy</th>
                         <th>Sell</th>
                     </tr>
-                    <tr>
-                        <td>Bitcoin</td>
-                        <td>850/$</td>
-                        <td>2000/$</td>
-                    </tr>
 
-                    <tr>
-                        <td>Bitcoin</td>
-                        <td>850/$</td>
-                        <td>2000/$</td>
-                    </tr>
+                    <?php
+                        $selectprod = "SELECT * FROM products WHERE status = 'active' ORDER BY id DESC";
+                        $selectprod_run = mysqli_query($con, $selectprod);
 
-                    <tr>
-                        <td>Bitcoin</td>
-                        <td>850/$</td>
-                        <td>2000/$</td>
-                    </tr>
+                        if(mysqli_num_rows($selectprod_run) > 0)
+                        {
+                            foreach($selectprod_run as $data)
+                            {
+                                ?>
+                                    <tr>
+                                        <td><?= $data['name'] ?></td>
+                                        <td><?= $data['buying_rate'] ?>/$</td>
+                                        <td><?= $data['selling_rate'] ?>/$</td>
+                                    </tr>
+                                <?php
+                            }
+                        }
 
-                    <tr>
-                        <td>Bitcoin</td>
-                        <td>850/$</td>
-                        <td>2000/$</td>
-                    </tr>
-
-                    <tr>
-                        <td>Bitcoin</td>
-                        <td>850/$</td>
-                        <td>2000/$</td>
-                    </tr>
+                    ?>
                 </table>
             </div>
             <div class="part-b">
-                <form action="" method="post">
+                <form action="" id="idForm" method="post">
                     <div class="doubleInput">
                         <div>
                             <label for="">Select a Digital Asset</label>
-                            <select name="" id="" required>
+                            <select name="asset" id="" required>
                                 <option value="" selected>Select</option>
-                                <option value="">Bitcoin</option>
+                                <?php
+                                    $selectprod = "SELECT * FROM products WHERE status = 'active' ORDER BY id DESC";
+                                    $selectprod_run = mysqli_query($con, $selectprod);
+
+                                    if(mysqli_num_rows($selectprod_run) > 0)
+                                    {
+                                        foreach($selectprod_run as $data)
+                                        {
+                                            ?>
+                                                <option value="<?= $data['id'] ?>"><?= $data['name'] ?></option>
+                                            <?php
+                                        }
+                                    }
+
+                                ?>
                             </select>
                         </div>
 
                         <div>
                             <label for="">How much will you like to convert?</label>
-                            <input type="text" required>
+                            <input name="amount" type="number" required>
                         </div>
                     </div>
+                   
                     <div>
                         <label for="">Expected amount</label>
-                        <input type="text" value="NGN20,000,000" readonly>
+                        <input type="text" id="examount" value="--" readonly>
                     </div>
-                    <button class="button" id="how-it-works" type="submit">Quick Calculate</button>
+
+                    <button class="button" id="how-it-works" name="calculate" type="submit">Quick Calculate</button>
                 </form>
             </div>
         </div>
