@@ -683,6 +683,21 @@ footer p {
     color: var(--main-color);
 }
 
+.centered-text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-text p {
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 15%;
+}
+
 @media only screen and (max-width: 768px) {
     .footer_links {
         flex-direction: column;
